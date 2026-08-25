@@ -5,8 +5,7 @@ Could not reach the backend API. Make sure it's running (see README: uvicorn app
 Shelters
 Capacity, occupancy, and facility availability
 
-Failed to fetch
-Filter/rank by area, e.g. Area A
+https://disaster-response-graph-rag.vercel.app/
 Apply
 Clear
 
