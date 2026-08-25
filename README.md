@@ -1,6 +1,15 @@
 # DisasterGraph AI
 
 **GraphRAG-Based Disaster Response Intelligence and Resource Coordination System**
+Could not reach the backend API. Make sure it's running (see README: uvicorn app.main:app --reload) and that VITE_API_BASE_URL in frontend/.env points to it.
+Shelters
+Capacity, occupancy, and facility availability
+
+Failed to fetch
+Filter/rank by area, e.g. Area A
+Apply
+Clear
+
 
 > ⚠️ **All disaster, shelter, resource, hospital, and agency data in this
 > project is SYNTHETIC DEMO DATA** created for an academic final-year
