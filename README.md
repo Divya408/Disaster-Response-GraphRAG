@@ -10,7 +10,11 @@
 > authorities or emergency command decisions.
 
 ---
-
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Build-646CFF?logo=vite&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -321,5 +325,6 @@ student-friendly answers.
 This system provides AI-assisted decision support and does not replace
 official disaster-management authorities or emergency command decisions.
 All data shipped with this project is synthetic demo data for academic use.
-#   D i s a s t e r - R e s p o n s e - G r a p h R A G  
- 
+
+ 
+ 
