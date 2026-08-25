@@ -6,8 +6,7 @@ Shelters
 Capacity, occupancy, and facility availability
 
 https://disaster-response-graph-rag.vercel.app/
-Apply
-Clear
+
 
 
 > ⚠️ **All disaster, shelter, resource, hospital, and agency data in this
