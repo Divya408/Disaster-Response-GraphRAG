@@ -1,0 +1,26 @@
+DEMO DATA — FOR ACADEMIC PROJECT USE
+Sample Flood Incident Report (Synthetic)
+
+Incident ID: INC-001
+Date: 2026-08-10
+Location: Area A, Salem District
+Disaster Type: Flood
+Severity: HIGH
+Population Affected: 1200
+Notes: River overflow, roads submerged. Fire and Rescue Department dispatched rescue boats. Shelter A and Shelter D activated.
+
+Incident ID: INC-002
+Date: 2026-08-10
+Location: Area B, Salem District
+Disaster Type: Flood
+Severity: MEDIUM
+Population Affected: 850
+Notes: Partial waterlogging in low-lying streets. Shelter B activated with drinking water and medical support available.
+
+Incident ID: INC-003
+Date: 2026-08-11
+Location: Area C, Salem District
+Disaster Type: Flood
+Severity: LOW
+Population Affected: 430
+Notes: Minor water entry into some homes. Shelter C available with drinking water and medical support, food distribution pending.

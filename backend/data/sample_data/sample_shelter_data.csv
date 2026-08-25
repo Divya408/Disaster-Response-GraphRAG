@@ -1,0 +1,6 @@
+# SYNTHETIC DEMO DATA -- FOR ACADEMIC PROJECT USE ONLY
+shelter_id,shelter_name,location,capacity,occupied,available_capacity,drinking_water,food_available,medical_support,contact
+SHL-A,Shelter A - Government High School,Area A,600,540,60,No,Yes,No,0427-DEMO-001
+SHL-B,Shelter B - Community Hall,Area B,1000,100,900,Yes,Yes,Yes,0427-DEMO-002
+SHL-C,Shelter C - Municipal College,Area C,400,90,310,Yes,No,Yes,0427-DEMO-003
+SHL-D,Shelter D - Town Community Center,Area A,300,260,40,Yes,Yes,No,0427-DEMO-004

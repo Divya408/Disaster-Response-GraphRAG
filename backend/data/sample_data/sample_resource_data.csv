@@ -1,0 +1,7 @@
+# SYNTHETIC DEMO DATA -- FOR ACADEMIC PROJECT USE ONLY
+resource_id,resource_name,unit,available,required,location,responsible_agency
+RES-001,Drinking Water,liters,2000,3500,Salem District,District Disaster Management Authority
+RES-002,Food Packets,packets,1800,2200,Salem District,Local Volunteers and NGOs
+RES-003,Medical Kits,kits,150,180,Salem District,Health Department
+RES-004,Blankets,pieces,900,900,Salem District,Local Volunteers and NGOs
+RES-005,Rescue Boats,units,6,10,Salem District,Fire and Rescue Department

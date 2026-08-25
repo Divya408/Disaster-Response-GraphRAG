@@ -1,0 +1,11 @@
+DEMO DATA — FOR ACADEMIC PROJECT USE
+Document: Emergency Shelter Guidelines (Synthetic)
+
+Section 1: Shelter Standards
+Every shelter should have drinking water, food availability, and medical support where possible. Shelter capacity should be assessed daily and available capacity should be reported to the District Disaster Management Authority.
+
+Section 2: Shelter Capacity Reporting
+Shelter A - Government High School has capacity 600 and is currently occupied by 540 people, leaving 60 available. Shelter B - Community Hall has capacity 1000 and is occupied by 100 people, leaving 900 available. Shelter B has both drinking water and medical support. Shelter C - Municipal College has capacity 400, occupied by 90, leaving 310 available; it has drinking water and medical support but no food available yet. Shelter D - Town Community Center has capacity 300, occupied by 260, leaving 40 available, with drinking water and food but no medical support.
+
+Section 3: Prioritization
+When multiple shelters are candidates, prioritize shelters with more available capacity, and prefer shelters that already provide drinking water and medical support to reduce secondary health risk.

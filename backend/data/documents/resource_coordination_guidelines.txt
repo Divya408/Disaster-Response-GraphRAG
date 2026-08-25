@@ -1,0 +1,12 @@
+DEMO DATA — FOR ACADEMIC PROJECT USE
+Document: Resource Coordination Guidelines (Synthetic)
+
+Table 1: Resource Availability (Salem District Flood, Demo)
+Drinking Water: available 2000 liters, required 3500 liters, shortage 1500 liters. Responsible agency: District Disaster Management Authority.
+Food Packets: available 1800 packets, required 2200 packets, shortage 400 packets. Responsible agency: Local Volunteers and NGOs.
+Medical Kits: available 150 kits, required 180 kits, shortage 30 kits. Responsible agency: Health Department.
+Blankets: available 900 pieces, required 900 pieces, shortage 0 pieces. Responsible agency: Local Volunteers and NGOs.
+Rescue Boats: available 6 units, required 10 units, shortage 4 units. Responsible agency: Fire and Rescue Department.
+
+Table 2: Coordination Notes
+Agencies must report resource shortages to the District Disaster Management Authority within 6 hours of assessment. Drinking water and rescue boats are currently the highest priority shortages for the Salem District flood response.

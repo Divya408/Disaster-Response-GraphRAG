@@ -1,0 +1,77 @@
+{
+  "_label": "SYNTHETIC DEMO DATA — FOR ACADEMIC PROJECT USE ONLY. Not real disaster data.",
+  "disaster": {
+    "id": "DIS-001",
+    "type": "Flood",
+    "name": "Salem District Flood Event (Demo)",
+    "date": "2026-08-10",
+    "severity": "HIGH",
+    "district": "Salem District",
+    "description": "Heavy monsoon rainfall caused river overflow affecting multiple areas of Salem District. (Synthetic scenario for academic demonstration.)"
+  },
+  "locations": [
+    {"id": "LOC-A", "name": "Area A", "aliases": ["Area A", "Zone A"], "district": "Salem District", "affected_population": 1200},
+    {"id": "LOC-B", "name": "Area B", "aliases": ["Area B", "Zone B"], "district": "Salem District", "affected_population": 850},
+    {"id": "LOC-C", "name": "Area C", "aliases": ["Area C", "Zone C"], "district": "Salem District", "affected_population": 430},
+    {"id": "LOC-DIST", "name": "Salem District", "aliases": ["Salem", "Salem district", "Salem District"], "district": "Salem District", "affected_population": 2480}
+  ],
+  "shelters": [
+    {
+      "id": "SHL-A", "name": "Shelter A - Government High School",
+      "location_id": "LOC-A", "location_name": "Area A",
+      "capacity": 600, "occupied": 540, "available_capacity": 60,
+      "drinking_water": false, "food_available": true, "medical_support": false,
+      "facilities": ["Restrooms", "Sleeping Halls"],
+      "contact": "0427-DEMO-001"
+    },
+    {
+      "id": "SHL-B", "name": "Shelter B - Community Hall",
+      "location_id": "LOC-B", "location_name": "Area B",
+      "capacity": 1000, "occupied": 100, "available_capacity": 900,
+      "drinking_water": true, "food_available": true, "medical_support": true,
+      "facilities": ["Restrooms", "Kitchen", "First Aid Room"],
+      "contact": "0427-DEMO-002"
+    },
+    {
+      "id": "SHL-C", "name": "Shelter C - Municipal College",
+      "location_id": "LOC-C", "location_name": "Area C",
+      "capacity": 400, "occupied": 90, "available_capacity": 310,
+      "drinking_water": true, "food_available": false, "medical_support": true,
+      "facilities": ["Restrooms", "First Aid Room"],
+      "contact": "0427-DEMO-003"
+    },
+    {
+      "id": "SHL-D", "name": "Shelter D - Town Community Center",
+      "location_id": "LOC-A", "location_name": "Area A",
+      "capacity": 300, "occupied": 260, "available_capacity": 40,
+      "drinking_water": true, "food_available": true, "medical_support": false,
+      "facilities": ["Restrooms"],
+      "contact": "0427-DEMO-004"
+    }
+  ],
+  "resources": [
+    {"id": "RES-001", "name": "Drinking Water", "unit": "liters", "available": 2000, "required": 3500, "location_id": "LOC-DIST", "responsible_agency_id": "AGY-DMA"},
+    {"id": "RES-002", "name": "Food Packets", "unit": "packets", "available": 1800, "required": 2200, "location_id": "LOC-DIST", "responsible_agency_id": "AGY-NGO"},
+    {"id": "RES-003", "name": "Medical Kits", "unit": "kits", "available": 150, "required": 180, "location_id": "LOC-DIST", "responsible_agency_id": "AGY-HEALTH"},
+    {"id": "RES-004", "name": "Blankets", "unit": "pieces", "available": 900, "required": 900, "location_id": "LOC-DIST", "responsible_agency_id": "AGY-NGO"},
+    {"id": "RES-005", "name": "Rescue Boats", "unit": "units", "available": 6, "required": 10, "location_id": "LOC-DIST", "responsible_agency_id": "AGY-FIRE"}
+  ],
+  "agencies": [
+    {"id": "AGY-DMA", "name": "District Disaster Management Authority", "responsible_for": ["Evacuation", "Shelter Allocation", "Coordination"], "operates_in": "Salem District"},
+    {"id": "AGY-FIRE", "name": "Fire and Rescue Department", "responsible_for": ["Rescue Operation", "Evacuation"], "operates_in": "Salem District"},
+    {"id": "AGY-POLICE", "name": "Police Department", "responsible_for": ["Evacuation", "Crowd Control"], "operates_in": "Salem District"},
+    {"id": "AGY-HEALTH", "name": "Health Department", "responsible_for": ["Medical Assistance"], "operates_in": "Salem District"},
+    {"id": "AGY-NGO", "name": "Local Volunteers and NGOs", "responsible_for": ["Food Distribution", "Shelter Support"], "operates_in": "Salem District"}
+  ],
+  "hospitals": [
+    {"id": "HOS-A", "name": "Salem General Hospital (Demo)", "location_id": "LOC-A", "location_name": "Area A", "total_beds": 200, "emergency_beds": 25, "available_emergency_beds": 8, "facilities": ["Emergency", "ICU"]},
+    {"id": "HOS-B", "name": "Community Health Center B (Demo)", "location_id": "LOC-B", "location_name": "Area B", "total_beds": 80, "emergency_beds": 10, "available_emergency_beds": 7, "facilities": ["Emergency"]},
+    {"id": "HOS-C", "name": "Area C Primary Hospital (Demo)", "location_id": "LOC-C", "location_name": "Area C", "total_beds": 60, "emergency_beds": 8, "available_emergency_beds": 5, "facilities": ["Emergency", "Maternity"]}
+  ],
+  "incidents": [
+    {"id": "INC-001", "date": "2026-08-10", "location_id": "LOC-A", "disaster_type": "Flood", "severity": "HIGH", "population_affected": 1200, "notes": "River overflow, roads submerged."},
+    {"id": "INC-002", "date": "2026-08-10", "location_id": "LOC-B", "disaster_type": "Flood", "severity": "MEDIUM", "population_affected": 850, "notes": "Partial waterlogging in low-lying streets."},
+    {"id": "INC-003", "date": "2026-08-11", "location_id": "LOC-C", "disaster_type": "Flood", "severity": "LOW", "population_affected": 430, "notes": "Minor water entry into some homes."}
+  ],
+  "response_actions": ["Evacuation", "Shelter Allocation", "Food Distribution", "Medical Assistance", "Rescue Operation", "Crowd Control", "Coordination", "Shelter Support"]
+}

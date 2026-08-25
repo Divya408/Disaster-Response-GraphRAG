@@ -1,0 +1,8 @@
+DEMO DATA — FOR ACADEMIC PROJECT USE
+Document: Hospital Emergency Guidelines (Synthetic)
+
+Salem General Hospital (Demo) is located in Area A and has total beds 200 with 25 emergency beds, of which 8 are currently available. Facilities include Emergency and ICU.
+Community Health Center B (Demo) is located in Area B and has total beds 80 with 10 emergency beds, of which 7 are currently available. Facilities include Emergency.
+Area C Primary Hospital (Demo) is located in Area C and has total beds 60 with 8 emergency beds, of which 5 are currently available. Facilities include Emergency and Maternity.
+
+Guidance: Hospitals with the highest available emergency bed count relative to demand should be prioritized for patient referral. Coordinate transfer through the Health Department.

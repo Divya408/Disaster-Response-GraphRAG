@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+
+# Data artifacts generated at runtime (kept out of the shipped ZIP as well)
+backend/data/app.db
+backend/data/chroma_store/
+backend/data/reports/
+
+# OS
+.DS_Store
+Thumbs.db
